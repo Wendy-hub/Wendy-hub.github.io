@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+
+canvas{display:block}
+
+body {
+  margin: 0;
+  background: #020202;
+  cursor: crosshair;
+
+  color: #fff;
+  text-shadow: 3px 3px 13px #2196f3;
+  font-family: "system-ui";
+  text-align: center;
+  max-width: 960px;
+}
+
+#happyNewYear-div {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+#happyNewYear-div > div {
+  padding: 10px;
+  border-radius: 3px;
+  background: #5aa628;
+  display: inline-block;
+}
+
+#happyNewYear-div div > span {
+  padding: 15px;
+  border-radius: 3px;
+  background: #20c1dd;
+  display: inline-block;
+}
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.greet {
+  margin-top: 6rem;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  max-width: 100px;
+  float: left;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.two > div {
+  height: 50px;
+  width: 50px;
+}
+
+._a {
+  width: 100px;
+  height: 100px;
+  background-color: #03a9f4;
+  border-top-left-radius: 50px;
+}
+
+._b {
+  border-top-right-radius: 50px;
+  background: #cddc39;
+}
+
+._c {
+  border-top-left-radius: 50px;
+  background: #ff9800;
+}
+._d {
+  border-bottom-right-radius: 50px;
+  background: #e91e63;
+}
+
+._e {
+  height: 25px !important;
+  background: #9c27b0;
+}
+
+._f {
+  height: 25px !important;
+  background: #ff5722;
+}
+
+.zero {
+  height: 125px;
+  background: #ffeb3b;
+  width: 125px !important;
+  border-radius: 100%;
+  position: relative;
+  display: block;
+  max-width: 100%;
+  box-shadow: inset -20px -10px 20px 0px #ff5722;
+}
+
+.year {
+  display: inline-block;
+  padding: 15px;
+}
+
+.year > div {
+  -webkit-animation: filter-animation 5s infinite;
+  animation: filter-animation 5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes filter-animation {
+  0% {
+    -webkit-filter: hue-rotate(360deg);
+  }
+  
+  50% {
+    -webkit-filter: hue-rotate(315deg);
+  }
+  
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes filter-animation {
+  0% {
+    filter: hue-rotate(360deg);
+  }
+  
+  50% {
+    filter: hue-rotate(315deg);
+  }
+  
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
