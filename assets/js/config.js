@@ -16,7 +16,8 @@ var config = {
 
     imgs: {
         "Hello 阿布都拉": "./images/avator.jpg",
-        "Okay, 现在回来告诉我你喜不喜欢吧;)": "./iamges/avator.jpg",
+        "我的朋友😊": "./images/avator.jpg",
+        "Okay, 现在回来告诉我你喜不喜欢吧;)": "./images/avator.jpg",
     },
 
     desc: {
